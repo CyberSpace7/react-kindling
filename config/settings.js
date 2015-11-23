@@ -30,7 +30,7 @@ module.exports = {
   projectType: 'client-server',
 
   // Used by pageSpeed. This should be the url of your production server
-  applicationUrl: 'http://www.example.com',
+  applicationUrl: 'https://gwsxzislqx.localtunnel.me',
 
   // Dev urls
   devApplicationUrl: secrets.devApplicationUrl || 'http://localhost:' + serverPort,

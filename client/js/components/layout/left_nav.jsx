@@ -20,16 +20,16 @@ export default React.createClass({
 
       var loggedIn = User.loggedIn();
 
-      var menuItems = [
-        { route: 'home', text: 'Home' }
-      ];
+      var menuItems = [];
 
       if(loggedIn){
-        menuItems.push({ route: 'logout', text: 'Logout' });
-        menuItems.push({ route: 'dashboard', text: 'Dashboard' });
+        menuItems.push({ route: 'dashboard', text: 'Home' });
         menuItems.push({ route: 'connections', text: 'Connections' });
+        menuItems.push({ route: 'logout', text: 'Logout' });
       } else {
-        menuItems.push({ route: 'login', text: 'Sign In' });
+        menuItems.push({ route: 'home', text: 'Home' });
+        menuItems.push({ route: 'about', text: 'About' });
+        menuItems.push({ route: 'login', text: 'Login' });
         menuItems.push({ route: 'register', text: 'Sign Up' });
       }
 
