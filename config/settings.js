@@ -8,8 +8,8 @@ var prodRelativeOutput    = '/build/release/';
 var devOutput     = path.join(__dirname, '..' + devRelativeOutput);
 var prodOutput    = path.join(__dirname, '..' + prodRelativeOutput);
 
-var serverPort = 8888;
-var hotPort = 8080;
+var serverPort = 8080;
+var hotPort = 8888;
 
 module.exports = {
   title: info.title,
@@ -30,7 +30,7 @@ module.exports = {
   projectType: 'client-server',
 
   // Used by pageSpeed. This should be the url of your production server
-  applicationUrl: 'https://gwsxzislqx.localtunnel.me',
+  applicationUrl: 'http://vapor.cyberspace7.xyz',
 
   // Dev urls
   devApplicationUrl: secrets.devApplicationUrl || 'http://localhost:' + serverPort,
