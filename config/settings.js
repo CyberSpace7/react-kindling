@@ -33,8 +33,8 @@ module.exports = {
   applicationUrl: 'http://vapor.cyberspace7.xyz',
 
   // Dev urls
-  devApplicationUrl: secrets.devApplicationUrl || 'http://localhost:' + serverPort,
-  devAssetsUrl: secrets.devAssetsUrl || 'http://localhost:' + hotPort,
+  devApplicationUrl: secrets.devApplicationUrl || 'http://vapor.cyberspace7.xyz:' + serverPort,
+  devAssetsUrl: secrets.devAssetsUrl || 'http://resrc.cyberspace7.xyz:' + hotPort,
 
   ports: {
     server: serverPort,
